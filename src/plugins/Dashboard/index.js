@@ -38,28 +38,28 @@ module.exports = class Dashboard extends Plugin {
 
     const defaultLocale = {
       strings: {
-        selectToUpload: 'Select files to upload',
-        closeModal: 'Close Modal',
-        upload: 'Upload',
-        importFrom: 'Import files from',
-        dashboardWindowTitle: 'Uppy Dashboard Window (Press escape to close)',
-        dashboardTitle: 'Uppy Dashboard',
-        copyLinkToClipboardSuccess: 'Link copied to clipboard.',
-        copyLinkToClipboardFallback: 'Copy the URL below',
-        fileSource: 'File source',
-        done: 'Done',
-        localDisk: 'Local Disk',
-        myDevice: 'My Device',
+        selectToUpload: '选择要上传的文件',
+        closeModal: '关闭窗口',
+        upload: '上传',
+        importFrom: '导入文件',
+        dashboardWindowTitle: '文件上传组件窗口（按ESC键关闭该窗口）',
+        dashboardTitle: '文件上传',
+        copyLinkToClipboardSuccess: '拷贝文件链接到剪贴板',
+        copyLinkToClipboardFallback: '拷贝下方的文件链接',
+        fileSource: '文件源',
+        done: '完成',
+        localDisk: '本地磁盘',
+        myDevice: '我的设备',
         dropPasteImport: 'Drop files here, paste, import from one of the locations above or',
-        dropPaste: 'Drop files here, paste or',
-        browse: 'browse',
-        fileProgress: 'File progress: upload speed and ETA',
-        numberOfSelectedFiles: 'Number of selected files',
-        uploadAllNewFiles: 'Upload all new files',
-        emptyFolderAdded: 'No files were added from empty folder',
+        dropPaste: '拖拽您要上传的照片到此处，或',
+        browse: '浏览文件',
+        fileProgress: '文件处理中：上传速度及预计需要的时间',
+        numberOfSelectedFiles: '选中的文件数',
+        uploadAllNewFiles: '上传所有的文件',
+        emptyFolderAdded: '文件夹为空，无法添加文件',
         folderAdded: {
-          0: 'Added %{smart_count} file from %{folder}',
-          1: 'Added %{smart_count} files from %{folder}'
+          0: '从文件夹 %{folder} 添加了 %{smart_count} 个文件',
+          1: '从文件夹 %{folder} 添加了 %{smart_count} 个文件'
         }
       }
     }

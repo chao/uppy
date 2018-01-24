@@ -56,9 +56,9 @@ module.exports = class FileCard extends Component {
       {this.props.fileCardFor &&
         <div style="width: 100%; height: 100%;">
           <div class="uppy-DashboardContent-bar">
-            <h2 class="uppy-DashboardContent-title">Editing <span class="uppy-DashboardContent-titleFile">{file.meta ? file.meta.name : file.name}</span></h2>
-            <button class="uppy-DashboardContent-back" type="button" title="Finish editing file"
-              onclick={this.handleClick}>Done</button>
+            <h2 class="uppy-DashboardContent-title">编辑 <span class="uppy-DashboardContent-titleFile">{file.meta ? file.meta.name : file.name}</span></h2>
+            <button class="uppy-DashboardContent-back" type="button" title="完成文件编辑"
+              onclick={this.handleClick}>关闭</button>
           </div>
           <div class="uppy-DashboardFileCard-inner">
             <div class="uppy-DashboardFileCard-preview" style={{ backgroundColor: getFileTypeIcon(file.type).color }}>

@@ -20,16 +20,16 @@ class Uppy {
     const defaultLocale = {
       strings: {
         youCanOnlyUploadX: {
-          0: 'You can only upload %{smart_count} file',
-          1: 'You can only upload %{smart_count} files'
+          0: '您只能上传 %{smart_count} 个文件',
+          1: '您只能上传 %{smart_count} 个文件'
         },
         youHaveToAtLeastSelectX: {
-          0: 'You have to select at least %{smart_count} file',
-          1: 'You have to select at least %{smart_count} files'
+          0: '您应该至少选择 %{smart_count} 个文件',
+          1: '您应该至少选择 %{smart_count} 个文件'
         },
-        exceedsSize: 'This file exceeds maximum allowed size of',
-        youCanOnlyUploadFileTypes: 'You can only upload:',
-        uppyServerError: 'Connection with Uppy Server failed'
+        exceedsSize: '文件超出了最大文件大小：',
+        youCanOnlyUploadFileTypes: '您只能上传：',
+        uppyServerError: '连接Uppy服务器失败'
       }
     }
 
